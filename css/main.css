@@ -1,0 +1,65 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   text-align: center;
+}
+#container{
+	margin-top: 5px;
+}
+
+#heading{
+	background-color: #808080;
+	height:10rem;
+}
+h1 {
+	text-align: center;
+	font-size:3rem;
+	font-weight: 300;
+
+	
+
+}
+h2{
+	text-align: center;
+	font-size:20px;
+	font-weight: 300;
+    margin:5px 10px 5px 10px;
+
+
+}
+
+.content{
+	height:28rem;
+	background-color: pink;
+
+
+}
+#addNumbers{
+	margin: 2rem auto 0 auto;
+	height:2rem;
+	width:25.55rem;
+	background-color: white;
+	border-radius: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1rem;
+	display:inline-block;
+}
+#footer{
+	
+	text-align: center;
+	background-color: #808080;
+	height:4rem;
+
+}
+h3{
+	text-align: center;
+	color:#FFEFD5;
+}
+.resultArea{
+	background-color: white;
+	margin-top: 7px;
+
+}
