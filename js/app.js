@@ -29,6 +29,7 @@ $( "#addNumbers" ).keypress(function(e) {
 resultstring= resultstring +'</p>';
    console.log(resultstring);
  $( ".resultArea" ).append( $(resultstring) );
+ $("#addNumbers").val('');
 	}
 
 });
