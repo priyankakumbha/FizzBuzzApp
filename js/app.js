@@ -26,15 +26,15 @@ function generateFizzBuzz(itemvalue) {
    
    if(i%3==0 && i%5==0) {
      
-   resultstring=resultstring+" fizzbuzz  ";
+   resultstring=resultstring+"<label id='fizbuzz'> fizzbuzz </label> ";
    }else if(i%3==0) {
       
-   resultstring=resultstring+" fizz  ";
+   resultstring=resultstring+"<label> fizz </label>";
    }else if(i%5==0) {
       
-   resultstring=resultstring+" buzz  ";
+   resultstring=resultstring+"<label> buzz </label> ";
    }else { 
-   resultstring=resultstring+ "  "+i;
+   resultstring=resultstring+ "<label>"+i +"</label>";
 
    }
 }
