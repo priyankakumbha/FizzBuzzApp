@@ -1,12 +1,14 @@
 body {
     /* Typography Declarations */
     color: #222222;
+
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
    text-align: center;
 }
 #container{
 	margin-top: 5px;
+  
 }
 
 #heading{
@@ -31,8 +33,8 @@ h2{
 }
 
 .content{
-	height:28rem;
-	background-color: pink;
+	height:auto;
+	
 
 
 }
@@ -48,7 +50,7 @@ h2{
 	display:inline-block;
 }
 #footer{
-	
+	margin-top: 300px;
 	text-align: center;
 	background-color: #808080;
 	height:4rem;
@@ -58,11 +60,28 @@ h3{
 	text-align: center;
 	color:#FFEFD5;
 }
+.message{
+	color:#CA278C;
+	margin-top: 7px;
+
+}
 .resultArea{
-	background-color: white;
+	color:#CA278C;
 	margin-top: 7px;
 
 }
 #fizbuzz{
-color:orange;	
+color:#AA0114;	
 }
+.resultTable{
+	background-color: #CCCCCC;
+	
+    margin: 5px auto;
+}
+table{
+	border-collapse:separate;
+    width:400px;
+    border-spacing:10px 50px;
+    border: 1px solid black;
+    border: 1px solid green
+   }
